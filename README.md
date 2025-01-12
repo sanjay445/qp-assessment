@@ -44,6 +44,8 @@ POST /api/user/login
 }
 ```
 
+### (Note: Use Bearer token which you can get from the Login API responce to hit the other APIs)
+
 ### 2. Get Grocery Items (User)
 
 ```
@@ -124,6 +126,8 @@ POST /api/admin/login
     "password": "user_password"
 }
 ```
+
+### (Note: Use Bearer token which you can get from the Login API responce to hit the other APIs)
 
 ### 2. Get Grocery Items (Admin)
 
