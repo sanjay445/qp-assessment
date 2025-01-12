@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src", "src/models/groceryItem.model.ts", "src/models/order.model.ts", "src/models/orderItem.model.ts", "src/models/user.model.ts", "seeders/20250111000001-demo-users.js", "seeders/20250111000002-demo-grocery-items.js"]
+}

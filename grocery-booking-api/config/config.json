@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "your_password",
+    "database": "grocery",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "your_password",
+    "database": "grocery_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "your_password",
+    "database": "grocery_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

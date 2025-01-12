@@ -1,0 +1,24 @@
+{
+  "name": "grocery-booking-api",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.1",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
