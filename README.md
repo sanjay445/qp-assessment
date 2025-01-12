@@ -2,7 +2,7 @@
 
 Tech Stack used:
 
-* **Backend:** *Node.js with typscript*
+* **Backend:** *Node.js with typescript*
 * **ORM:** *Sequelize*
 * **Database:** *PostgreSQL*
 
